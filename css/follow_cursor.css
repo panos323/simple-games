@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width:100%;
+    overflow: hidden;
+    background-color: black;
+    margin: 0 auto;
+    
+}
+
+.box{
+    position: absolute;
+    top:5%;
+    left:50%;
+    transform: translate(-50%,-5%);
+    width:700px;
+    height:100px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.box h1{
+    font-size:4em;
+    z-index:1;
+    color:white;
+    line-height:100px;
+}
+
+.mask{
+    content:"";
+    position:absolute;
+    top:0;
+    width:100px;
+    height:100%;
+    background: white;
+    mix-blend-mode: difference;
+    animation: maskMove 1.8s infinite;
+    animation-direction: alternate-reverse;
+}
+
+.pointer{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:40px;
+    height:40px;
+    background: rgba(255,255,255,.5);
+    border-radius:50%;
+    border:1px solid rgba(255,255,255,.9);
+    box-sizing: border-box;
+    cursor:pointer;
+    transition:0.3s ease-out;
+}
+
+@keyframes maskMove {
+    from {left: 50px;}
+    to {left: 520px;}
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .box h1{
+        font-size:3em;
+        
+    }
+
+    @keyframes maskMove {
+        from {left: 120px;}
+        to {left: 460px;}
+    }
+
+}/*@media screen and (min-width: 480px)*/
+
+
+@media screen and (max-width: 420px) {
+
+
+    .box h1{
+        font-size:2em;
+        
+    }
+
+    .mask{
+        width:60px;
+    }   
+
+
+    @keyframes maskMove {
+        from {left: 180px;}
+        to {left: 440px;}
+    }
+
+}/*@media screen and (min-width: 420px)*/
+
+
+
+

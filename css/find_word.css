@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom:50px;
+}
+
+h1{
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:45px;
+    margin-bottom:45px;
+}
+
+#myDiv{
+    text-align: center;
+    margin-top:20px;
+}
+
+.allInputs{
+    display:inline-block;
+    width:35px;
+    text-align: center;
+    font-size:25px;
+}
+
+#myAnswer{
+    text-align: center;
+    margin-top:20px;
+}
+
+.AnswerInputs{
+    display:inline-block;
+    width:35px;
+    text-align: center;
+    font-size:25px;
+}
+
+.centerBtn{
+    text-align: center;
+}
+
+#button{
+    margin-top:25px;
+    border-radius:15px;
+    padding:10px;
+    background:orangered;
+    color:white;
+    cursor:pointer;
+    opacity:0.7;
+}
+
+#button:hover{
+    opacity:1;
+    transition: opacity 0.5s;
+}
+
+.greenSpan{
+    color:green;
+}
+
+.redSpan{
+    color:red;
+}

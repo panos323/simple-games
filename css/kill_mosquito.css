@@ -1,0 +1,100 @@
+html,body{
+    height:100%;
+}
+
+body{
+    overflow-x: hidden;
+    background: url(../images/room.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+::selection{
+    color:orangered;
+    background-color: wheat;
+}
+
+h1{
+    text-align: center;
+    animation:headerColor 1s infinite;
+    border-top:10px;
+}
+
+.racket{
+    float:right;
+}
+
+.racket img{
+    border-radius: 25%;
+}
+
+.mosquito img{
+    animation: MoveUpDown 1.8s ease-in-out infinite,
+    MoveFrontBack 2.5s ease-in-out infinite;
+    animation-fill-mode: both;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/*CHANGE HEADER H1 COLOR */
+@keyframes headerColor {
+    0%{
+        color:rgb(187, 52, 52,0.5);
+    }
+    25%{
+        color:rgba(36, 101, 199, 0.5);
+    }
+    50%{
+        color:rgba(40, 218, 99, 0.5);
+    }
+    75%{
+        color:rgba(100, 199, 34, 0.5);
+    }
+    100%{
+        color:rgb(187, 52, 52,0.9);
+    }
+}/*@keyframes headerColor*/
+/*CHANGE HEADER H1 COLOR */
+
+
+@keyframes MoveUpDown {
+    0% {
+      bottom: 80vh;
+    }
+    25% {
+      bottom: 5vh;
+    }
+    35%{
+        bottom: 45vh;
+    }
+    50%{
+        bottom:5vh;
+    }
+    65%{
+        bottom: 65vh;
+    }
+    80%{
+        bottom:40vh;
+    }
+    100%{
+        bottom: 80vh;
+    }
+  }
+
+
+  @keyframes MoveFrontBack {
+    0%, 100% {
+      left: 90vw;
+    }
+    50% {
+      left: 5vw;
+    }
+  }
+
+
+
+
+
+

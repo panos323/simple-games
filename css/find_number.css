@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    text-align: center;
+    margin-top:10px;
+    text-shadow: 2px 3px 2px rgba(150, 150, 150, 1);
+    color: orangered;
+
+}
+
+::selection{
+    background: wheat;
+}
+
+#memoryBoard{
+    background:#ccc;
+    width:700px;
+    height:750px;
+    border-radius:15px;
+    text-align: center;
+    margin:0 auto;
+    margin-bottom:50px;
+}
+
+.boardDivs{
+    width:70px;
+    height:70px;
+    background: red;
+    border:5px solid black;
+    margin:5%;
+    text-align: center;
+    display: inline-block;
+    font-size:30px;
+    color:black;
+    line-height: 70px;
+    opacity:0.75;
+}
+
+.gameRules{
+    text-align: center;
+    margin:25px 0;
+}
+
+
+.boardDivs:hover{
+    cursor:pointer;
+    opacity:1;
+}
+
+
+
+@media only screen and (max-width: 750px) {
+    #memoryBoard{
+        background:#ccc;
+        width:500px;
+        height:1000px;
+    }
+}
+
+
+@media only screen and (max-width: 550px) {
+    #memoryBoard{
+        width:300px;
+        height:1200px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #memoryBoard{
+        width:250px;
+        height:1200px;
+    }
+}
+

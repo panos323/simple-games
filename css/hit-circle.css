@@ -1,0 +1,40 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+
+header{
+    text-align:center;
+}
+
+header h1{
+    animation: opacityHeader 0.5s linear infinite;
+}
+
+.gameBtns{
+    color:green;
+}
+
+
+@keyframes opacityHeader {
+    from {
+        opacity:0.3;
+        }
+    to {
+        opacity:1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

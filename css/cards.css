@@ -1,0 +1,229 @@
+body{
+    width:100%;
+    background-color: antiquewhite;
+}
+
+#wrapper{
+    width:90%;
+    max-width:1600px;
+    margin:0 auto;   
+}
+
+#flex_content{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between; 
+}
+
+main h1{
+    text-align: center;
+    background-color: sienna;
+    color:white;
+    border-radius: 15px;
+    transition:all 0.8s linear;
+}
+
+main h1:hover{
+    background-color: rebeccapurple;
+}
+
+.content{ 
+    perspective: 700px;
+    margin-top:50px;
+}
+
+.flip{
+    width:250px;
+    height:340px;
+    position:relative;
+    text-align: center;
+    font-size:2em;
+    transition:all 0.8s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+/* first cards */
+
+.front, .back{
+    position:absolute;
+    width:250px;
+    height:340px;
+    backface-visibility: hidden;
+    
+}
+
+.front{
+    background-image: url(../images/back.png);
+    
+}
+
+.back{
+    transform: rotateY(180deg);
+    background-image: url(../images/a.png);
+}
+
+
+.flip:hover{
+    transform: rotateY(180deg);
+}
+/* first cards */
+
+
+
+/* second cards */
+.front2, .back2{
+    position:absolute;
+    width:250px;
+    height:340px;
+    backface-visibility: hidden;
+    
+}
+
+.front2{
+    background-image: url(../images/back.png);
+}
+
+.back2{
+    transform: rotateY(180deg);
+    background-image: url(../images/king.png);
+}
+/* second cards */
+
+
+
+/* third cards */
+.front3, .back3{
+    position:absolute;
+    width:250px;
+    height:340px;
+    backface-visibility: hidden;
+    
+}
+
+.front3{
+    background-image: url(../images/back.png);
+}
+
+.back3{
+    transform: rotateY(180deg);
+    background-image: url(../images/a1.png);
+}
+/* third cards */
+
+
+/* fourth cards */
+.front4, .back4{
+    position:absolute;
+    width:250px;
+    height:340px;
+    backface-visibility: hidden;
+    
+}
+
+.front4{
+    background-image: url(../images/back.png);
+}
+
+.back4{
+    transform: rotateY(180deg);
+    background-image: url(../images/num1.png);
+}
+/* fourth cards */
+
+
+/* fifth cards */
+.front5, .back5{
+    position:absolute;
+    width:250px;
+    height:340px;
+    backface-visibility: hidden;
+    
+}
+
+.front5{
+    background-image: url(../images/back.png);
+}
+
+.back5{
+    transform: rotateY(180deg);
+    background-image: url(../images/king2.png);
+}
+/* fifth cards */
+
+
+/* sixth cards */
+.front6, .back6{
+    position:absolute;
+    width:250px;
+    height:340px;
+    backface-visibility: hidden;
+    
+}
+
+.front6{
+    background-image: url(../images/back.png);
+}
+
+.back6{
+    transform: rotateY(180deg);
+    background-image: url(../images/num2.png);
+}
+/*sixth cards */
+
+
+/* seven cards */
+.front7, .back7{
+    position:absolute;
+    width:250px;
+    height:340px;
+    backface-visibility: hidden;
+    
+}
+
+.front7{
+    background-image: url(../images/back.png);
+}
+
+.back7{
+    transform: rotateY(180deg);
+    background-image: url(../images/queen.png);
+}
+/*seven cards */
+
+
+/* eight cards */
+.front8, .back8{
+    position:absolute;
+    width:250px;
+    height:340px;
+    backface-visibility: hidden;
+    
+}
+
+.front8{
+    background-image: url(../images/back.png);
+}
+
+.back8{
+    transform: rotateY(180deg);
+    background-image: url(../images/q.png);
+}
+/*eight cards */
+
+
+
+
+/* for small screens*/
+
+
+
+@media only screen and (max-width: 570px) {
+    #flex_content{
+        display:block;
+    }
+
+    .content,.flip{
+        margin: 0 auto;
+        margin-bottom:15px;
+    }
+}

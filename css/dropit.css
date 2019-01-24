@@ -1,0 +1,278 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+body{
+    min-width:490px;
+    width: auto !important;  
+    width:100%;
+    margin:0 auto;
+    overflow-x: hidden;
+    background: rgba(245, 221, 178,0.2);
+}
+
+
+#humanBodyheader{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:orchid;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+
+img{
+    width:40px;
+    height:40px;
+    margin:10px;
+    z-index:5;
+    opacity: 0.8;
+}
+
+[draggable] {
+    cursor:move;
+}
+
+.main_human{
+    margin:40px 0;
+    height:80vh;
+    display:block;
+    width:90vw;
+}
+
+/*----------------------IMAGE POSITIONING-------------------------------------*/
+.image_container{
+    position: relative;
+}
+
+
+.Drag_images{
+    position: absolute;
+}
+
+
+#img1{
+    position: absolute;
+    left:20px;
+}
+
+#img3{
+    position: absolute;
+    left:100px;
+}
+
+#img4{
+    position: absolute;
+    left:180px;
+}
+
+#img5{
+    position: absolute;
+    left:260px;
+}
+
+#img6{
+    position: absolute;
+    left:340px;
+}
+
+#img7{
+    position: absolute;
+    left:420px;
+}
+
+#img8{
+    position: absolute;
+    left:500px;
+}
+
+#img9{
+    position: absolute;
+    left:580px;
+}
+
+#img10{
+    position: absolute;
+    left:660px;
+}
+
+
+#img11{
+    position: absolute;
+    left:740px;
+}
+
+
+#img12{
+    position: absolute;
+    left:820px;
+}
+
+#img13{
+    position: absolute;
+    left:900px;
+}
+
+#img14{
+    position: absolute;
+    left:980px;
+}
+
+
+#img15{
+    position: absolute;
+    left:1060px;
+}
+
+#img16{
+    position: absolute;
+    left:1140px;
+}
+
+#img17{
+    position: absolute;
+    left:1220px;
+}
+
+#img18{
+    position: absolute;
+    left:1300px;
+}
+
+/*----------------------IMAGE POSITIONING-------------------------------------*/
+
+
+
+
+
+/*----------------FOR SMALLER SCREENS------------------------------------*/
+
+@media only screen and (max-width: 1400px) {
+
+ 
+    
+    #img11{
+        position: absolute;
+        left:20px;
+        top:60px;
+    }
+    
+    
+    #img12{
+        position: absolute;
+        left:100px;
+        top:60px;
+    }
+    
+    #img13{
+        position: absolute;
+        left:180px;
+        top:60px;
+    }
+    
+    #img14{
+        position: absolute;
+        left:260px;
+        top:60px;
+    }
+    
+    
+    #img15{
+        position: absolute;
+        left:340px;
+        top:60px;
+    }
+    
+    #img16{
+        position: absolute;
+        left:420px;
+        top:60px;
+    }
+    
+    #img17{
+        position: absolute;
+        left:500px;
+        top:60px;
+    }
+    
+    #img18{
+        position: absolute;
+        left:580px;
+        top:60px;
+    }
+
+} /*@media only screen and (max-width: 1400px) */
+
+
+
+
+
+@media only screen and (max-width: 780px)  and (min-width: 500px) {
+  
+
+    #img8{
+        position: absolute;
+        left:20px;
+        top:120px;
+    }
+    
+    #img9{
+        position: absolute;
+        left:100px;
+        top:120px;    
+    }
+    
+    #img10{
+        position: absolute;
+        left:180px;
+        top:120px;  
+    }
+
+    #img17{
+        position: absolute;
+        left:260px;
+        top:120px;  
+    }
+    
+    #img18{
+        position: absolute;
+        left:340px;
+        top:120px;  
+    }
+
+    
+
+} /*@media only screen and (max-width: 780px) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body,html{
+    width:100%;
+    width:100%;
+}
+
+body{
+    margin:0 auto;
+}
+
+header h1{
+    font-size:44px;
+}
+
+header{
+    text-align: center;
+    margin-top:8px;
+}
+
+#findAgain{
+    padding:14px;
+    color:lightcyan;
+    background: rgb(197, 119, 91);
+    border-radius: 25%;
+    cursor:pointer;
+    font-size:16px;
+    transition: background 0.2s ease-in-out;
+}
+
+#findAgain:hover{
+    background: orangered;
+}
+
+
+.centerFrame{
+    position: relative;
+    text-align: center;
+    width:80vw;
+    height:80vh;
+}
+
+#map{
+    width:80vw;
+    height:80vh;
+    margin:5% 0;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+#resultState{
+    margin-top:25px;
+    font-size:24px;
+}
